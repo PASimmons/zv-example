@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <IsTestProject>false</IsTestProject>
-    <LangVersion>8</LangVersion>
+    <LangVersion>12</LangVersion>
     <!--The next two lines are needed for Swagger XML generation-->
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
@@ -29,6 +29,7 @@
     <PackageReference Include="System.Text.Json" Version="9.0.0" />
     <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
     <PackageReference Include="YamlDotNet" Version="16.2.1" />
+     <PackageReference Include="Dapr.AspNetCore" Version="1.14.0" />
   </ItemGroup>
 
   <ItemGroup>
